@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #152542;
+    font-family: sans-serif;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 240px;
+    padding: 12px;
+
+    background: rgba(25,25,25,0.9);
+    border-radius: 6px;
+
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #eee;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    display: none;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="color"] {
+    height: 28px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+button {
+    padding: 6px 8px;
+    border: none;
+    border-radius: 4px;
+
+    background: #444;
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666;
+}
